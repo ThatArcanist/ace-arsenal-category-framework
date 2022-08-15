@@ -25,16 +25,16 @@ class CfgFunctions
 	};
 };
 
+class CfgWeapons
+{
+    #include "AceMedical.hpp"
+};
+
 class AceArsenalCategory
 {
     class MedicalCategory
     {
         displayName = "Medical";
         picture = "ace-arsenal-category-framework\addons\icons\medical.paa";
-    };    
-    class TestCategory
-    {
-        displayName = "Test";
-        picture = "";
-    };    
+    };     
 };
